@@ -29,7 +29,7 @@
 	"name": "startbootstrap-freelancer-theme",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "github:lgdd/liferay-dropzone-themelet",
+	"repository": "github:lgdd/liferay-startbootstrap",
 	"dependencies": {
 		"liferay-dropzone-themelet": "^1.0.2"
 	}
