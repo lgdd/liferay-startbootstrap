@@ -1,0 +1,36 @@
+{
+	"devDependencies": {
+		"gulp": "3.9.1",
+		"liferay-theme-deps-7.1": "8.0.0-alpha.6",
+		"liferay-theme-tasks": "^8.0.0-beta.1"
+	},
+	"keywords": [
+		"liferay-theme"
+	],
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"screenshot": "",
+		"rubySass": false,
+		"templateLanguage": "ftl",
+		"version": "7.1",
+		"themeletDependencies": {
+			"liferay-dropzone-themelet": {
+				"liferayTheme": {
+					"screenshot": "",
+					"themelet": true,
+					"version": "*"
+				},
+				"name": "liferay-dropzone-themelet",
+				"version": "1.0.2"
+			}
+		}
+	},
+	"main": "package.json",
+	"name": "startbootstrap-freelancer-theme",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "github:lgdd/liferay-dropzone-themelet",
+	"dependencies": {
+		"liferay-dropzone-themelet": "^1.0.2"
+	}
+}

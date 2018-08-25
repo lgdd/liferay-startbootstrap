@@ -1,0 +1,58 @@
+{
+  "layoutTemplateId": "multi_width_rows",
+  "publicPages": [
+    {
+      "columns": [
+        [
+          {
+            "portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+            "portletPreferences": {
+              "articleId": "Profile.xml",
+              "groupId": "${groupId}",
+              "portletSetupPortletDecoratorId": "barebone"
+            }
+          }
+        ],
+        [
+          {
+            "portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+            "portletPreferences": {
+              "articleId": "Portfolio.xml",
+              "groupId": "${groupId}",
+              "portletSetupPortletDecoratorId": "barebone"
+            }
+          }
+        ],
+        [
+          {
+            "portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+            "portletPreferences": {
+              "articleId": "About.xml",
+              "groupId": "${groupId}",
+              "portletSetupPortletDecoratorId": "barebone"
+            }
+          }
+        ]
+      ],
+      "friendlyURL": "/portfolio",
+      "nameMap": {
+        "en_US": "Portfolio"
+      },
+      "title": "Portfolio"
+    },
+    {
+      "friendlyURL": "/about",
+      "nameMap": {
+        "en_US": "About"
+      },
+      "title": "About"
+    },
+    {
+      "friendlyURL": "/contact",
+      "nameMap": {
+        "en_US": "Contact"
+      },
+      "title": "Contact"
+    }
+  ]
+}

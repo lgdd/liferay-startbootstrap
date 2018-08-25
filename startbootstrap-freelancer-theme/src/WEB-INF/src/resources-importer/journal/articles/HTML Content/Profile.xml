@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+    <dynamic-element name="content" type="text_area" index-type="text" instance-id="zydo">
+        <dynamic-content language-id="en_US"><![CDATA[<header class="masthead bg-primary text-white text-center">
+    <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="[$FILE=profile.png$]" alt="">
+        <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
+    </div>
+</header>]]></dynamic-content>
+    </dynamic-element>
+</root>

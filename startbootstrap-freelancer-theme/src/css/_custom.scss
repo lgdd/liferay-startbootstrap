@@ -1,0 +1,46 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+/* inject:imports */
+/* endinject */
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+@import "freelancer/freelancer";
+
+#wrapper {
+  padding: 0;
+}
+
+#content {
+  padding: 5rem 0;
+}
+
+.user-personal-bar {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.portlet-topper {
+  border: 2px solid $secondary;
+  border-radius: 4px;
+  z-index: 990;
+}
+
+.portlet-configuration-setup, .portlet-body {
+  .lfr-form-content {
+    top: 50px;
+  }
+  .sheet-footer.dialog-footer {
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+  }
+}
+
+.multi-width-rows {
+  .col-md-12 {
+    padding: 0;
+  }
+}
+
+.portlet-journal-content .portlet .portlet-header .visible-interaction .lfr-icon-menu {
+  color: $primary;
+}
