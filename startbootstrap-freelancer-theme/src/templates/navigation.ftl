@@ -12,7 +12,7 @@
                 aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
             Menu
-            <i class="fa fa-bars"></i>
+            <i class="icon-reorder"></i>
         </button>
         <#if !is_signed_in>
 			<a class="btn btn-light ml-5"
