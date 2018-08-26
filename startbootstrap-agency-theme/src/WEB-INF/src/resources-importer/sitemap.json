@@ -1,0 +1,62 @@
+{
+  "layoutTemplateId": "masthead_row",
+  "publicPages": [
+    {
+      "columns": [
+        [
+          {
+            "portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+            "portletPreferences": {
+              "articleId": "Masthead.xml",
+              "groupId": "${groupId}",
+              "portletSetupPortletDecoratorId": "barebone"
+            }
+          }
+        ],
+        [
+          {
+            "portletId": "com_liferay_journal_content_web_portlet_JournalContentPortlet",
+            "portletPreferences": {
+              "articleId": "Services.xml",
+              "groupId": "${groupId}",
+              "portletSetupPortletDecoratorId": "barebone"
+            }
+          }
+        ]
+      ],
+      "friendlyURL": "/services",
+      "nameMap": {
+        "en_US": "Services"
+      },
+      "title": "Services"
+    },
+    {
+      "friendlyURL": "/portfolio",
+      "nameMap": {
+        "en_US": "Portfolio"
+      },
+      "title": "Portfolio"
+    },
+    {
+      "friendlyURL": "/about",
+      "nameMap": {
+        "en_US": "About"
+      },
+      "title": "About"
+    },
+    {
+      "friendlyURL": "/team",
+      "nameMap": {
+        "en_US": "Team"
+      },
+      "title": "Team"
+    },
+    {
+      "friendlyURL": "/contact",
+      "nameMap": {
+        "en_US": "Contact"
+      },
+      "title": "Contact"
+    }
+  ]
+}

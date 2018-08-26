@@ -1,0 +1,6 @@
+.web_bundle_build
+build
+dist
+liferay-theme.json
+resources-importer
+doc

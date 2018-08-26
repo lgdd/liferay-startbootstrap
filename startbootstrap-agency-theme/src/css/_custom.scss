@@ -1,0 +1,74 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+/* inject:imports */
+/* endinject */
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+@import "agency/agency";
+
+#wrapper {
+  padding: 0;
+}
+
+#navigation {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .user-personal-bar {
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  &.navbar-shrink {
+    .user-personal-bar {
+      .user-full-name {
+        display: none;
+      }
+    }
+  }
+}
+
+.portlet-topper {
+  z-index: 990;
+}
+
+#main-content {
+  .masthead {
+    .portlet-topper {
+      position: relative;
+    }
+    .portlet {
+      padding: 0;
+    }
+  }
+  #column-2 {
+    margin-top: 70em;
+    .portlet {
+      margin-bottom: 10rem;
+    }
+  }
+}
+
+footer {
+  a {
+    color: $gray-900;
+    font-weight: bold;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $gray-900;
+      text-decoration: underline;
+    }
+  }
+  .social-buttons {
+    a {
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.bg-gray {
+  background-color: $gray-900;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+    <dynamic-element name="content" type="text_area" index-type="text" instance-id="zydo">
+        <dynamic-content language-id="en_US">
+            <![CDATA[
+                <div class="container">
+                    <div class="intro-text">
+                        <div class="intro-lead-in">Welcome To Our Studio!</div>
+                        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+                        <a class="btn btn-primary btn-xl text-uppercase" href="#!">Tell Me More</a>
+                    </div>
+                </div>
+            ]]>
+        </dynamic-content>
+    </dynamic-element>
+</root>

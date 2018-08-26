@@ -7,3 +7,7 @@ Liferay 7.1 Themes based on Bootstrap 4 Themes from [startbootstrap.com](https:/
 ### [Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
 ![Freelancer](startbootstrap-freelancer-theme/doc/preview.jpg)
+
+### [Agency](https://startbootstrap.com/template-overviews/agency/)
+
+![Agency](startbootstrap-agency-theme/doc/preview.jpg)
