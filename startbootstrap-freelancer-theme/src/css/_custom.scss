@@ -18,6 +18,21 @@
   }
 }
 
+#navigation {
+  .user-personal-bar {
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  &.navbar-shrink {
+    .user-personal-bar {
+      .user-full-name {
+        display: none;
+      }
+    }
+  }
+}
+
 .portlet-topper {
   border: 2px solid $secondary;
   border-radius: 4px;
