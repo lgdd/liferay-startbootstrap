@@ -2,6 +2,16 @@
 
 Liferay 7.1 Themes based on Bootstrap 4 Themes from [startbootstrap.com](https://startbootstrap.com/).
 
+## Themes
+
+### [Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+
+![Freelancer](startbootstrap-freelancer-theme/doc/preview.jpg)
+
+### [Agency](https://startbootstrap.com/template-overviews/agency/)
+
+![Agency](startbootstrap-agency-theme/doc/preview.jpg)
+
 ## Install
 
 ### Deployment
@@ -20,13 +30,3 @@ Liferay 7.1 Themes based on Bootstrap 4 Themes from [startbootstrap.com](https:/
 - Select the site template named after the theme you installed
 - Enter a site name & _Save_
 - Go to site
-
-## Themes
-
-### [Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
-
-![Freelancer](startbootstrap-freelancer-theme/doc/preview.jpg)
-
-### [Agency](https://startbootstrap.com/template-overviews/agency/)
-
-![Agency](startbootstrap-agency-theme/doc/preview.jpg)
