@@ -26,7 +26,7 @@ Liferay 7.1 Themes based on Bootstrap 4 Themes from [startbootstrap.com](https:/
 
 - Login to your instance as admin
 - Go to _Control Panel > Sites > Sites_
-- Add a _Site_ `+`
+- Add a _Site_ (`+`)
 - Select the site template named after the theme you installed
 - Enter a site name & _Save_
 - Go to site
